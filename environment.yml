@@ -1,4 +1,4 @@
-name: binder-box
+name: binder-box-kt
 channels:
     - conda-forge
 dependencies:
