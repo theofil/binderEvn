@@ -2,7 +2,13 @@ name: examples
 channels:
   - conda-forge
 dependencies:
-  - root=6.24.06
+  - pip
+  - root=6.22.0
   - numpy
   - pandas
   - matplotlib
+  - scikit-learn
+  - scikit-image
+  - scipy
+pip:
+  - nbgitpuller
