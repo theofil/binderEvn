@@ -1,0 +1,8 @@
+name: examples
+channels:
+  - conda-forge
+dependencies:
+  - root=6.24.06
+  - numpy
+  - pandas
+  - matplotlib
