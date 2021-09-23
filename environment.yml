@@ -1,15 +1,35 @@
-name: examples
+name: binder-box
 channels:
-  - conda-forge
+    - conda-forge
 dependencies:
-  - pip
-  - root=6.24.6
-  - numpy
-  - pandas
-  - matplotlib
-  - scikit-learn
-  - scikit-image
-  - scipy
-  - seaborn
-pip:
-  - nbgitpuller
+    - python=3.7
+    - jupyterlab
+    - dask
+    - notebook
+    - nbconvert
+    - ipykernel
+    - xarray
+    - rasterio
+    - fiona
+    - cartopy
+    - statsmodels
+    - scikit-image
+    - scikit-learn
+    - folium
+    - seaborn
+    - ipywidgets
+    - ipyleaflet
+    - widgetsnbextension
+    - matplotlib-base
+    - pandas
+    - scipy
+    - gdal>=3.0.4
+    - tqdm
+    - libgdal>=3.0.4
+    - jupyter_contrib_nbextensions
+    - widgetsnbextension
+    - ipympl
+    - pip
+    - pip:
+        - pcse
+        - nbgitpuller
